@@ -1,0 +1,80 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE, Edge */
+body {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  width: .25rem;
+  background: oklch(27.8% 0.033 256.848);
+  }
+
+::-webkit-scrollbar-thumb {
+  background: oklch(60.9% 0.126 221.723);
+  border-radius: .5rem;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: url(./assets/images/banner.jpg);
+  background-size: cover;
+}
+
+.header-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #eeeeee;
+    border-radius: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    animation: SlideUp 1s ease-in-out 200ms;
+}
+
+.header-title button {
+    background-color: #0092ca;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    border: none;
+}
+
+@keyframes SlideUp {
+  0% {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+

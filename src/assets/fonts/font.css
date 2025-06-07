@@ -1,0 +1,27 @@
+/* Blade Rounded */
+
+@font-face {
+    font-family: Blade Rounded;
+    src: url('./blade_rounded/font/Bladerounded-Regular.ttf');
+    src: url('./blade_rounded/font/Bladerounded-Regular.otf');
+}
+
+/* Home Video */
+@font-face {
+    font-family: Home Video;
+    src: url('./home_video/HomeVideo.ttf');
+}
+
+@font-face {
+    font-family: Home Video bold;
+    src: url('./home_video/HomeVideoBold.ttf');
+}
+
+
+.font-blade-round {
+    font-family: Blade Rounded, sans-serif !important;
+}
+
+.font-home-video {
+    font-family: Home Video, sans-serif !important;
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Aljay Y. Marquez",
+        "role": "Software Engineer",
+        "resumeLink":"https://drive.google.com/uc?export=download&id=1mSD_mZxQmgF1LndnY4py6eh98ZtGzPkF",
+        "description": "As an aspiring Computer Engineer, I am eager to launch my career in software development. I seek to contribute to innovative projects by leveraging my skills in languages such as Python, JavaScirpt, and C++, and my passion for building efficient, scalable solutions. With a keen interest in continuous learning and collaboration, I aim to grow as a software engineer while delivering meaningful impact within a forward-thinking development team.",
+        "experiences": [
+            {
+                "company": "NEXBRIDGE TECHNOLOGY",
+                "position": "Wordpress Intern",
+                "duration": "June 2024 - August 2024",
+                "roleDescription": "As a WordPress Intern at Nexbridge Technology, I contributed to the development and maintenance of WordPress website/s. My responsibilities included creating custom themes and plugins, optimizing site performance, and ensuring responsive design across devices. I collaborated with the development team to implement best practices in web development, enhancing user experience and functionality."
+            }
+        ],
+        "projects": [
+            {
+                "projectName": "Amana Waterpark",
+                "sampleImage": "amana-waterpark.png",
+                "projectDescription": [
+                    {
+                        "details": "This project is an unofficial reimagining of the Amana Waterpark website, developed as part of a college web development related course. Built using the React framework, the goal of this project was to create a modern, dynamic, and responsive web interface that enhances user engagement and improves navigational flow, while maintaining the brand's recreational and family-friendly image.",
+                        "details2": "The rework focuses on delivering a clean and intuitive user experience through component-based architecture and responsive design techniques. Key features of the website include:",
+                        "keypoints": [
+                            {
+                                "point": "Homepage: Engaging hero section with featured attractions and announcements."
+                            },
+                            {
+                                "point": "Attractions Page: Interactive cards showcasing pools, slides, and leisure areas with descriptions and photos."
+                            },
+                            {
+                                "point": "Rates & Packages: Clearly structured pricing information for both passes, cottages/rooms, and other amenities."
+                            },
+                            {
+                                "point": "Media Gallery: An image gallery to highlight the park’s facilities."
+                            },
+                            {
+                                "point": "Contact & Location: A downloadable map image, contact form using controlled components."
+                            }
+                        ],
+                        "disclaimer": "Disclaimer: This is an unofficial project and is not affiliated with or endorsed by Amana Waterpark. It is intended solely for academic and portfolio purposes. All visual and textual content belongs to their respective owners and is used under fair use or creative commons licenses where applicable."
+                    }
+                ],
+                "projectLink": "https://amana-resort-prototype.vercel.app/"
+            }
+        ],
+        "contactInfo": [
+            {
+            "facebookLink": "https://www.facebook.com/aljay.marquez.9"
+        },
+        {
+            "instagramLink":"https://www.instagram.com/algae.mrqz/"
+        }
+        ]
+    }
+]
