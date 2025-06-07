@@ -56,7 +56,7 @@ const App = () => {
         </div>
         <div className="header-title flex flex-col text-center position">
           <h1 className='lg:text-6xl text-xl font-bold font-blade-round'> Aljay Y. Marquez </h1>
-          <h2 className='lg:text-2xl text-sm font-home-video tracking-wider md:w-full w-[40%] self-center'>
+          <h2 className='lg:text-2xl text-sm font-home-video tracking-wider md:w-full w-[70%] self-center'>
             <span className=' font-home-video'> Aspiring </span>
             {typedText}
             <span className="blinking-cursor">|</span>
